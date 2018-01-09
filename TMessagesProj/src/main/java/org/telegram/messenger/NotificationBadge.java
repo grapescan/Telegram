@@ -31,6 +31,8 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
+import me.grapescan.tchannels.ApplicationLoader;
+
 public class NotificationBadge {
 
     private static final List<Class<? extends Badger>> BADGERS = new LinkedList<>();

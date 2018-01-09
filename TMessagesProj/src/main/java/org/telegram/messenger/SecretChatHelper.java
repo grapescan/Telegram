@@ -31,6 +31,8 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.concurrent.ConcurrentHashMap;
 
+import me.grapescan.tchannels.R;
+
 public class SecretChatHelper {
 
     public static class TL_decryptedMessageHolder extends TLObject {

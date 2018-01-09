@@ -50,6 +50,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 
+import me.grapescan.tchannels.ApplicationLoader;
+
 @TargetApi(Build.VERSION_CODES.LOLLIPOP)
 public class MusicBrowserService extends MediaBrowserService implements NotificationCenter.NotificationCenterDelegate {
 

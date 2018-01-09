@@ -56,6 +56,9 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+import me.grapescan.tchannels.ApplicationLoader;
+import me.grapescan.tchannels.R;
+
 public class SendMessagesHelper implements NotificationCenter.NotificationCenterDelegate {
 
     private TLRPC.ChatFull currentChatInfo = null;

@@ -32,7 +32,7 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
 import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.R;
+import me.grapescan.tchannels.R;
 import org.telegram.ui.Components.LayoutHelper;
 
 import java.util.ArrayList;

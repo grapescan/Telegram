@@ -14,6 +14,9 @@ import android.content.Intent;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.google.android.gms.iid.InstanceID;
 
+import me.grapescan.tchannels.ApplicationLoader;
+import me.grapescan.tchannels.R;
+
 public class GcmRegistrationIntentService extends IntentService {
 
     public GcmRegistrationIntentService() {

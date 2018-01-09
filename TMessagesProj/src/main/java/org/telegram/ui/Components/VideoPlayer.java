@@ -17,7 +17,7 @@ import android.view.TextureView;
 import org.telegram.messenger.exoplayer2.Player;
 import org.telegram.messenger.exoplayer2.source.LoopingMediaSource;
 import org.telegram.messenger.secretmedia.ExtendedDefaultDataSourceFactory;
-import org.telegram.messenger.ApplicationLoader;
+import me.grapescan.tchannels.ApplicationLoader;
 import org.telegram.messenger.exoplayer2.DefaultLoadControl;
 import org.telegram.messenger.exoplayer2.DefaultRenderersFactory;
 import org.telegram.messenger.exoplayer2.ExoPlaybackException;

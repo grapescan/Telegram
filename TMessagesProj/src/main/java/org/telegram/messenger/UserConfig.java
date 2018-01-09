@@ -19,6 +19,9 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Map;
 
+import me.grapescan.tchannels.ApplicationLoader;
+import me.grapescan.tchannels.R;
+
 public class UserConfig {
 
     private static TLRPC.User currentUser;

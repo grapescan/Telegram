@@ -13,6 +13,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
+import me.grapescan.tchannels.R;
+
 public class CustomTabsCopyReceiver extends BroadcastReceiver {
 
     @Override

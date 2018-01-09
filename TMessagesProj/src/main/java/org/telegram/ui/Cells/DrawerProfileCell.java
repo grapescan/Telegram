@@ -30,7 +30,7 @@ import org.telegram.PhoneFormat.PhoneFormat;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.UserObject;
 import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
+import me.grapescan.tchannels.R;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.AvatarDrawable;
 import org.telegram.ui.Components.BackupImageView;

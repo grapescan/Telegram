@@ -36,6 +36,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import me.grapescan.tchannels.ApplicationLoader;
+
 public class Emoji {
 
     private static HashMap<CharSequence, DrawableInfo> rects = new HashMap<>();

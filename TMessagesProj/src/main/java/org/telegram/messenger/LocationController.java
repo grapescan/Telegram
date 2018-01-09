@@ -29,6 +29,8 @@ import org.telegram.tgnet.TLRPC;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import me.grapescan.tchannels.ApplicationLoader;
+
 public class LocationController implements NotificationCenter.NotificationCenterDelegate {
 
     private HashMap<Long, SharingLocationInfo> sharingLocationsMap = new HashMap<>();

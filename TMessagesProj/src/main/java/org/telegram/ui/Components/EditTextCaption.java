@@ -25,7 +25,7 @@ import android.view.MenuItem;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
+import me.grapescan.tchannels.R;
 
 public class EditTextCaption extends EditTextBoldCursor {
 

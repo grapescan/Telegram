@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger;
+package me.grapescan.tchannels;
 
 import android.accounts.Account;
 import android.accounts.OperationCanceledException;
@@ -18,6 +18,8 @@ import android.content.Intent;
 import android.content.SyncResult;
 import android.os.Bundle;
 import android.os.IBinder;
+
+import org.telegram.messenger.FileLog;
 
 public class ContactsSyncAdapterService extends Service {
     private static SyncAdapterImpl sSyncAdapter = null;

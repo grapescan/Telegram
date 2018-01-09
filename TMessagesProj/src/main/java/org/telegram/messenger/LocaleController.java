@@ -39,6 +39,9 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.TimeZone;
 
+import me.grapescan.tchannels.ApplicationLoader;
+import me.grapescan.tchannels.R;
+
 public class LocaleController {
 
     static final int QUANTITY_OTHER = 0x0000;

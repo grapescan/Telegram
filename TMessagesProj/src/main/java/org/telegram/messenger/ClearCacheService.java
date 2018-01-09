@@ -19,6 +19,8 @@ import android.system.StructStat;
 import java.io.File;
 import java.util.HashMap;
 
+import me.grapescan.tchannels.ApplicationLoader;
+
 public class ClearCacheService extends IntentService {
 
     public ClearCacheService() {

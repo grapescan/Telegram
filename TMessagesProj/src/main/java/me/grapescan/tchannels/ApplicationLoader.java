@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger;
+package me.grapescan.tchannels;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -26,6 +26,18 @@ import android.os.PowerManager;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ContactsController;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.GcmRegistrationIntentService;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.MediaController;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.NativeLoader;
+import org.telegram.messenger.NotificationsService;
+import org.telegram.messenger.ScreenReceiver;
+import org.telegram.messenger.SendMessagesHelper;
+import org.telegram.messenger.UserConfig;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.ui.Components.ForegroundDetector;
 
@@ -58,7 +70,7 @@ public class ApplicationLoader extends Application {
         } catch (Exception e) {
             FileLog.e(e);
         }
-        return new File("/data/data/org.telegram.messenger/files");
+        return applicationContext.getFilesDir();
     }
 
     public static void postInitApplication() {

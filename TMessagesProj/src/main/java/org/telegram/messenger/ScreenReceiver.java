@@ -14,6 +14,8 @@ import android.content.Intent;
 
 import org.telegram.tgnet.ConnectionsManager;
 
+import me.grapescan.tchannels.ApplicationLoader;
+
 public class ScreenReceiver extends BroadcastReceiver {
 
     @Override

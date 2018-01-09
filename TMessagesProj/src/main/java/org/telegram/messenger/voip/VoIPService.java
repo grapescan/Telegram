@@ -31,8 +31,7 @@ import android.text.style.ForegroundColorSpan;
 import android.view.KeyEvent;
 
 import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.BuildConfig;
+import me.grapescan.tchannels.ApplicationLoader;
 import org.telegram.messenger.BuildVars;
 import org.telegram.messenger.ContactsController;
 import org.telegram.messenger.FileLoader;
@@ -42,7 +41,6 @@ import org.telegram.messenger.LocaleController;
 import org.telegram.messenger.MessagesController;
 import org.telegram.messenger.MessagesStorage;
 import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
 import org.telegram.messenger.UserObject;
 import org.telegram.messenger.Utilities;
 import org.telegram.tgnet.ConnectionsManager;
@@ -60,6 +58,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
+
+import me.grapescan.tchannels.BuildConfig;
+import me.grapescan.tchannels.R;
 
 public class VoIPService extends VoIPBaseService implements NotificationCenter.NotificationCenterDelegate{
 

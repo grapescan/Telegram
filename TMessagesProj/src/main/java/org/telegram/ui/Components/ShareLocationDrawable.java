@@ -14,7 +14,7 @@ import android.graphics.ColorFilter;
 import android.graphics.drawable.Drawable;
 
 import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.R;
+import me.grapescan.tchannels.R;
 
 public class ShareLocationDrawable extends Drawable {
 

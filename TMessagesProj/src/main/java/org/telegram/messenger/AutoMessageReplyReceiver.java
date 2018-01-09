@@ -14,6 +14,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.RemoteInput;
 
+import me.grapescan.tchannels.ApplicationLoader;
+
 public class AutoMessageReplyReceiver extends BroadcastReceiver {
 
     @Override

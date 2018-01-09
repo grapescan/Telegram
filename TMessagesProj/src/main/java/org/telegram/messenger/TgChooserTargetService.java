@@ -38,6 +38,9 @@ import java.util.List;
 import java.util.Locale;
 import java.util.concurrent.Semaphore;
 
+import me.grapescan.tchannels.ApplicationLoader;
+import me.grapescan.tchannels.R;
+
 @TargetApi(Build.VERSION_CODES.M)
 public class TgChooserTargetService extends ChooserTargetService {
 

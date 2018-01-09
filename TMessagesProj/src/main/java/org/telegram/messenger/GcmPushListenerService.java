@@ -22,6 +22,8 @@ import org.telegram.tgnet.TLRPC;
 
 import android.net.ConnectivityManager;
 
+import me.grapescan.tchannels.ApplicationLoader;
+
 public class GcmPushListenerService extends GcmListenerService {
 
     public static final int NOTIFICATION_ID = 1;

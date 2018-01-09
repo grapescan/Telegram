@@ -18,6 +18,8 @@ import java.util.LinkedList;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Semaphore;
 
+import me.grapescan.tchannels.ApplicationLoader;
+
 public class FileLoader {
 
     public interface FileLoaderDelegate {

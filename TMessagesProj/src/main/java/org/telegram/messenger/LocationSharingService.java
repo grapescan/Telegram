@@ -21,6 +21,9 @@ import org.telegram.ui.LaunchActivity;
 
 import java.util.ArrayList;
 
+import me.grapescan.tchannels.ApplicationLoader;
+import me.grapescan.tchannels.R;
+
 public class LocationSharingService extends Service implements NotificationCenter.NotificationCenterDelegate {
 
     private NotificationCompat.Builder builder;

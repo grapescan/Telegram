@@ -27,6 +27,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Locale;
 
+import me.grapescan.tchannels.ApplicationLoader;
+
 public class FileUploadOperation {
 
     private class UploadCachedResult {

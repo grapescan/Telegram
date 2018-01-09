@@ -11,6 +11,8 @@ package org.telegram.messenger;
 import android.content.Context;
 import android.content.SharedPreferences;
 
+import me.grapescan.tchannels.ApplicationLoader;
+
 public class StatsController {
 
     public static final int TYPE_MOBILE = 0;

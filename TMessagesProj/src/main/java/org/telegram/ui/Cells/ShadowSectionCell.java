@@ -12,7 +12,7 @@ import android.content.Context;
 import android.view.View;
 
 import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.R;
+import me.grapescan.tchannels.R;
 import org.telegram.ui.ActionBar.Theme;
 
 public class ShadowSectionCell extends View {

@@ -24,7 +24,7 @@
 
 package org.telegram.PhoneFormat;
 
-import org.telegram.messenger.ApplicationLoader;
+import me.grapescan.tchannels.ApplicationLoader;
 import org.telegram.messenger.FileLog;
 
 import java.io.ByteArrayOutputStream;

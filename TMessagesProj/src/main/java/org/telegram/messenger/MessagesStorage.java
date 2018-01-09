@@ -37,6 +37,8 @@ import java.util.Map;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicLong;
 
+import me.grapescan.tchannels.ApplicationLoader;
+
 public class MessagesStorage {
 
     public interface IntCallback {

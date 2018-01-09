@@ -14,8 +14,7 @@ import android.media.audiofx.AcousticEchoCanceler;
 import android.os.Build;
 import android.os.SystemClock;
 
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.BuildConfig;
+import me.grapescan.tchannels.ApplicationLoader;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.voip.VoIPHelper;
 
@@ -24,6 +23,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Locale;
+
+import me.grapescan.tchannels.BuildConfig;
 
 public class VoIPController {
 

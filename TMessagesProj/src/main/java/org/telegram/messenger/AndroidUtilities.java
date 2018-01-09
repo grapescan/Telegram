@@ -104,6 +104,10 @@ import java.util.Hashtable;
 import java.util.Locale;
 import java.util.regex.Pattern;
 
+import me.grapescan.tchannels.ApplicationLoader;
+import me.grapescan.tchannels.BuildConfig;
+import me.grapescan.tchannels.R;
+
 public class AndroidUtilities {
 
     private static final Hashtable<String, Typeface> typefaceCache = new Hashtable<>();

@@ -13,6 +13,8 @@ import android.text.TextUtils;
 import org.telegram.PhoneFormat.PhoneFormat;
 import org.telegram.tgnet.TLRPC;
 
+import me.grapescan.tchannels.R;
+
 public class UserObject {
 
     public static boolean isDeleted(TLRPC.User user) {

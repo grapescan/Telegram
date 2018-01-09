@@ -12,6 +12,8 @@ import android.util.SparseArray;
 
 import java.util.ArrayList;
 
+import me.grapescan.tchannels.ApplicationLoader;
+
 public class NotificationCenter {
 
     private static int totalEvents = 1;

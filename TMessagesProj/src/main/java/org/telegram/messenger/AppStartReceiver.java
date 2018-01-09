@@ -12,6 +12,8 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
+import me.grapescan.tchannels.ApplicationLoader;
+
 public class AppStartReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         AndroidUtilities.runOnUIThread(new Runnable() {

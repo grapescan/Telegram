@@ -23,7 +23,7 @@ import android.widget.TextView;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
+import me.grapescan.tchannels.R;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

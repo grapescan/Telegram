@@ -12,6 +12,8 @@ import android.content.Intent;
 
 import com.google.android.gms.iid.InstanceIDListenerService;
 
+import me.grapescan.tchannels.ApplicationLoader;
+
 public class GcmInstanceIDListenerService extends InstanceIDListenerService {
 
     @Override
